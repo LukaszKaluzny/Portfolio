@@ -93,10 +93,6 @@ p.project-desc {
 	text-align: center;
 }
 @media (max-width: 768px) {
-div.project-photo {
-    max-height: 170px;
-    }
-
 [class*="col-"] {
     width: 100%;
     padding: 10px;
