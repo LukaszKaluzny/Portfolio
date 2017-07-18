@@ -107,6 +107,7 @@ p.skill-desc,
 p.project-desc {
   font-size: 1.2em;
   padding: 25px 0;
+  text-align: justify;
 }
 #contact {
   text-align: center;
@@ -117,7 +118,7 @@ footer .copyright {
   background-color: #222222;
   border: 1px solid #101010;
 }
-footer .copyright p {
+footer > div.copyright > p {
   margin: 0;
 }
 
