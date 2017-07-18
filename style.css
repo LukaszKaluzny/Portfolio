@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 a {
-	font-family: 'Archivo Black', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .container {
@@ -90,11 +90,23 @@ p.project-desc {
   padding: 25px 0;
 }
 #contact {
-	text-align: center;
+  text-align: center;
 }
+footer .copyright {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222222;
+  border: 1px solid #101010;
+}
+footer .copyright p {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
+
 [class*="col-"] {
     width: 100%;
     padding: 10px;
+    text-align: center;
     }
 }
