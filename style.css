@@ -5,6 +5,16 @@ body {
   background-color: #171D20;
   color: #fff;
 }
+.jumbotron {
+  background-image: url("img/image.jpg");
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  background-size: cover;
+}
+h1 {
+  font-size: 2em;
+}
 h1,
 a {
   color: #39a5f1;
@@ -15,7 +25,13 @@ h3,
 a {
   font-family: 'Archivo Black', sans-serif;
 }
-
+.text-background {
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(23, 29, 32, 0.5);
+}
 .container {
   margin: 10px auto;
 }
@@ -107,12 +123,23 @@ footer .copyright p {
 
 @media (max-width: 768px) {
 
-[class*="col-"] {
+  [class*="col-"] {
     width: 100%;
     padding: 10px;
     text-align: center;
-    }
-p.skill-desc {
-  	height: auto;
-	}
+  }
+  h1 {
+    text-align: center;
+  }
+  p.skill-desc {
+    height: auto;
+  }
+  .text-background {
+    width: 100%;
+    border-radius: 0;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: rgba(23, 29, 32, 0.5);
+  }
 }
+
