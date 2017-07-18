@@ -84,6 +84,9 @@ p.project-text {
   font-weight: 600;
   font-size: 1.8em;
 }
+p.skill-desc {
+  height: 96px;
+}
 p.skill-desc,
 p.project-desc {
   font-size: 1.2em;
@@ -109,4 +112,7 @@ footer .copyright p {
     padding: 10px;
     text-align: center;
     }
+}
+p.skill-desc {
+  height: auto;
 }
