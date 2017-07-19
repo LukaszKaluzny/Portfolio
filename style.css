@@ -11,6 +11,10 @@ body {
   /*background-attachment: fixed;*/
   /*background-position: center;*/
   background-size: cover;
+  height: 100vh;
+}
+.text-background {
+  line-height: 50%;
 }
 #modal-button {
   outline: none;
@@ -162,6 +166,9 @@ footer .copyright {
   p.skill-desc,
   p.project-desc {
     text-align: center;
+  }
+  .jumbotron {
+    height: auto;
   }
   .text-background {
     width: 100%;
