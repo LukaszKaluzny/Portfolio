@@ -149,6 +149,10 @@ footer .copyright {
   p.skill-desc {
     height: auto;
   }
+  p.skill-desc,
+  p.project-desc {
+  	text-align: center;
+  }
   .text-background {
     width: 100%;
     border-radius: 0;
