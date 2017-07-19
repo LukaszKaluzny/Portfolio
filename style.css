@@ -128,8 +128,8 @@ footer .copyright {
   background-color: #222222;
   border: 1px solid #101010;
 }
-footer > div.copyright > p {
-  margin: 0;
+.copyright p {
+  margin: auto;
 }
 @media (min-width: 768px) and (max-width: 812px) {
 .navbar-form input.form-control {
