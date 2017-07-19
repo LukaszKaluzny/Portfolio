@@ -6,7 +6,7 @@ body {
   color: #fff;
 }
 .jumbotron {
-  background-image: url("img/image.jpg");
+  background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
   /*background-position: center;*/
