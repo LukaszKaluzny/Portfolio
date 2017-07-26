@@ -131,6 +131,9 @@ p.project-desc {
   padding: 5px 0;
   text-align: justify;
 }
+/*section#projects .project-desc p:nth-child(2, 3, 4) {
+  height: inherit;
+}*/
 div.git {
 	margin-bottom: 10px;
 }
